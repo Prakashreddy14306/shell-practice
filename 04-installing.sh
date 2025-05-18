@@ -2,7 +2,7 @@
 
 uid=$(id -u)
 
-if [$uid -eq 0 ]
+if [ $uid -eq 0 ]
 then
     echo "you have access....continue"
 else
